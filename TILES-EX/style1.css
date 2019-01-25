@@ -1,0 +1,39 @@
+body{
+			width: 100vw;
+			height: 100vh;
+		}
+		.main > div{
+			display: inline-block;
+			padding: 5px;
+		}
+		.main{
+             padding: 5px;
+             height: 75% ;
+             width: 25% ;
+             background: grey;
+		}
+		.t1,.t4,.t5{
+			height: 25%;
+			width: 60%;
+			background: red;
+		}
+		.t2,.t3{
+			width: 33%;
+            height:25%;
+            background: blue;
+		}
+		.t6{
+			width: 14.5%;
+			height: 25%;
+			background: green;
+		}
+		.t7{
+			width: 14.5%;
+			height: 25%;
+			background: cyan;
+		}
+		.t8{
+			height: 15%;
+			width: 97%;
+			background: yellow;
+		}

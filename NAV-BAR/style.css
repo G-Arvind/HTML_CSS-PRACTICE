@@ -1,0 +1,95 @@
+.topnav {
+  	width: 100%;
+  	height:65px;
+  background-color: #2874f0;
+}
+
+.btn{
+	border-radius: 2px;
+	margin-left: -30px;
+	padding: 6px;	
+	color: #2874f0;
+	border: none;
+	background: #ffffff;
+}
+input{
+	padding: 3px;
+	border: none;
+	border-radius: 2px;
+	margin-top: 15px;	
+	margin-left: 150px;
+	width: 500px;
+	height: 30px;
+}
+
+ul{	
+	position: absolute;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+		
+li{
+	color: white;
+	float: right;
+}
+
+.menu,.userdropdown{
+	font-weight: bold; 
+	font-family: arial;
+	position: relative;
+	top: 20px;
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+}
+.userdropdown{
+	position: relative;
+	display: inline-block;
+	bottom: 60px;
+	top: 0px;
+}
+.dropcontent{
+	display: none;
+	border: 1px solid grey;
+    width: 220px;
+	background: white;
+	position: absolute;
+	left: -50px;
+	top:60px;
+}
+.dropcontent>a{
+	text-decoration: none;
+	border-bottom: 1px solid grey;
+	padding: 20px;
+	color: black;
+	display: block;
+}
+.userdropdown:hover > .dropcontent{
+	display: block;  
+}
+.dropcontent>a:hover{
+	background: #2874f0;
+} 
+
+.triangle{
+	top: -40px;
+	left: 40%;
+	position: absolute;
+	height: 0px;
+	width: 0px;
+	border: 20px solid transparent;
+	border-bottom-color: white;
+}
+.cartcount{
+    font-family: arial;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    background:red;
+    border: 1px solid white;
+    padding: 0px 3px;
+    font-size: 12px;
+    border-radius: 50%;	 
+}

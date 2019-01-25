@@ -1,0 +1,39 @@
+
+	     body{
+           
+	     	height: 700px;
+	     	width: 700px;
+	     }
+		.container{
+			position: relative;
+            left: 65%;
+            top: 15%;
+            height: 70%;
+            width: 70%;
+            background: white;
+		}
+		.c1{
+			position: absolute;
+			width: 50%;
+			height: 50%;
+			border-radius: 50%;
+			background: #92F442;
+		}
+		.c2{
+			position: absolute;
+			left: 40%;
+			width: 50%;
+			height: 50%;
+			border-radius: 50%;
+			background: #FFD428;
+		}
+		.c3{
+			left: 20%;
+			position: absolute;
+			top:35%;
+			width: 50%;
+			height: 50%;
+			border-radius: 50%;
+			background: #E80B97;
+		}
+	

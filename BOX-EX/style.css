@@ -1,0 +1,23 @@
+
+	    .main{
+	    	border: 3px solid;
+	    }
+		.head{
+			height: auto;
+			margin: 100px;
+			border: 2px solid;
+		}
+		.bdy{
+			height: 30px;
+            overflow-y: hidden;
+			margin: 100px;
+			border: 2px solid;
+		}
+		.foot{
+            width:1000px;
+            overflow-y: auto;
+            height: 50px;
+			margin: 100px;
+			border: 2px solid;
+		}
+
